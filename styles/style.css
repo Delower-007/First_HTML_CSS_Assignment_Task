@@ -1,0 +1,301 @@
+/* Shared styles  */
+.p-description-font {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-bottom: 25px;
+  opacity: 0.7;
+}
+.btn-secondary {
+  padding: 8px 15px 8px 15px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 23px;
+  text-align: center;
+  color: rgb(13, 19, 33);
+}
+.coding-section-title {
+  color: rgba(13, 19, 33, 0.7);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* Header Banner Section */
+.banner {
+  background-image: url("../assets/Hero-bg.png");
+  width: 100%;
+  height: 640px;
+
+  /* display: flex; */
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 670px;
+  height: 390px;
+  text-align: center;
+  padding: 30px 120px 200px;
+  margin: 0px auto;
+}
+.banner-writting-content {
+  font-weight: 800px;
+  margin-bottom: 25px;
+}
+.btn-primary {
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+}
+.btn-primary a {
+  padding: 21px 24px 21px 24px;
+  border-radius: 8px;
+  background: rgb(13, 19, 33);
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+}
+.banner-writting-content {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 48px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* Second Section starts */
+.skill-section-title,
+.inspiration-section-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 25px;
+}
+.skill-description-font,
+.inspiration-description-font {
+  width: 690px;
+  text-align: center;
+  margin: 10px auto;
+  opacity: 0.7;
+}
+.coding-part {
+  display: flex;
+  gap: 100px;
+  width: 700px;
+  margin: 0px auto;
+  padding: 48px;
+  align-items: center;
+}
+/* .coding-description {
+  width: 450px;
+  height: 120px;
+} */
+.coding-challange {
+  width: 400px;
+}
+.coding-description {
+  width: 400px;
+  margin-bottom: 32px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+/* second section end  */
+/* Second part of flex is start */
+.coding-part-two {
+  display: flex;
+  gap: 30px;
+  width: 700px;
+  margin: 0px auto;
+  padding: 48px;
+  align-items: center;
+}
+/* Second part of flex is end */
+
+/* Third Part is started */
+.coding-part-three {
+  display: flex;
+  gap: 133px;
+  width: 700px;
+  margin: 0px auto;
+  padding: 48px;
+  align-items: center;
+}
+
+/* Third Part is ended */
+
+/* inpiration part is started */
+iframe {
+  width: 600px;
+  height: 300px;
+  border-radius: 5px;
+  margin-top: 40px;
+  border: 10px;
+}
+.video-section {
+  text-align: center;
+}
+/* inpiration part is ended */
+
+/* My current terget start*/
+.all-technology {
+  display: flex;
+  width: 760px;
+  height: 320;
+  gap: 40px;
+  align-items: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.image {
+  width: 16.22px;
+  height: 38.23px;
+  left: 28px;
+  top: 14.33px;
+  margin-bottom: 40px;
+}
+.technology {
+  margin-top: 40px;
+  width: 255px;
+}
+.tec-1 {
+  background: rgba(255, 76, 30, 0.05);
+  border-radius: 16px;
+}
+.tec-2 {
+  border-radius: 16px;
+  background: rgba(0, 76, 232, 0.05);
+}
+.tec-3 {
+  border-radius: 16px;
+  background: rgba(255, 223, 0, 0.05);
+}
+.tec-info {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  margin-bottom: 25px;
+  opacity: 0.7;
+}
+.learn-more a {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* My current terget end */
+/* footer start */
+.total-footer {
+  width: 770px;
+  height: 240px;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.6), rgba(59, 51, 51, 0.6)),
+    url(../assets/handshake.jpg);
+  background-size: cover;
+  border-radius: 10px;
+}
+.footer-title {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin-top: 50px;
+  border-radius: 16px;
+}
+.footer-description {
+  color: rgb(255, 255, 255);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: center;
+  opacity: 0.7;
+  margin-bottom: 30px;
+}
+.total-footer {
+  margin: 0 auto;
+  padding: 5px;
+}
+.button-relete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.text-button {
+  width: 350px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid rgba(13, 19, 33, 0.15);
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+}
+.submit {
+  border-radius: 8px;
+  background: rgb(255, 255, 255);
+  padding: 15px;
+  border: none;
+  width: 75px;
+  text-align: center;
+  color: black;
+  font-weight: 680px;
+  font-size: 15px;
+}
+/* footer end  */
+.last-footer {
+  display: flex;
+  margin: 0 auto;
+  width: 770px;
+  justify-content: space-between;
+  margin-top: 50px;
+  font-weight: 700px;
+  font-size: 20px;
+  align-items: center;
+  padding: 10px;
+}
+.icons a img {
+  margin: 15px;
+  size: 10px;
+  height: 28px;
+  width: 30px;
+ 
+}
+ 
